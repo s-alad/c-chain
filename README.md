@@ -1,2 +1,2 @@
 # c-chain
-A mediocre implementation of a blockchain from scratch in C++
+A mediocre implementation of a pow blockchain from scratch in C++
