@@ -3,11 +3,6 @@
 #include <string>
 #include <vector>
 
-int main() {
-    std::cout << "MAIN" << std::endl;
-    return 0;
-}
-
 class Block {
     public:
         int32_t index;
@@ -30,3 +25,13 @@ class Block {
             std::cout << "MINE" << std::endl;
         }
 };
+
+int main() {
+    std::cout << "MAIN" << std::endl;
+
+    Block block(0, 0, 0, std::vector<int8_t>(32, 0));
+
+    block.mine();
+
+    return 0;
+}
